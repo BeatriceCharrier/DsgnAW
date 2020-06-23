@@ -1,0 +1,119 @@
+/* --------  media query  -------- */
+
+@media all and (max-width: 1200px) {
+    .header-section h2{
+        color: #f53b57;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .heading-div h1{
+        font-size: 25px;
+    }
+    
+    .nav-menu a{
+        font-size: 16px;
+        padding: 27px 10px;
+    }
+
+    .header-section h2{
+        font-size: 35px;
+    }
+
+    .header-section p{
+        font-size: 16px;
+    }
+
+    .personal-info img{
+        width: 30%;
+    }
+
+    .personal-info h2{
+        font-size: 25px;
+    }
+
+    .personal-info h3{
+        font-size: 25px;
+    }
+
+    .personal-info p{
+        font-size: 16px;
+        max-width: 700px;
+    }
+
+    abilities{
+        flex-direction: column;
+    }
+
+    .container{
+        max-width: 600px;
+    }
+
+    .ability{
+        margin-right: 0;
+    }
+
+    .ability i{
+        font-size: 50px;
+        margin-top: 40px;
+    }
+
+    .ability p{
+        margin-top: 40px;
+    }
+
+    .works h2{
+        font-size: 30px;
+    }
+
+    .works-gallery{
+        justify-content: space-around;
+    }
+
+    .works-gallery img{
+        width: 48%;   /* because 2 images per screen occupy 96%  */
+    }
+
+    .contact h3{
+        font-size: 30px;
+    }
+
+    form .button{
+        font-size: 16px;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    /* Looks acceptable */
+    
+}
+
+
+@media all and (max-width: 480px) {
+    .heading-div{
+        flex-direction: column;
+    }
+
+    .nav-menu{
+        margin-top: 25px;
+    }
+
+    .nav-menu a{
+        padding: 21px 10px;
+    }
+
+    .works-gallery img{
+        width: 96%;   /* 1 image per screen occupies 96%  */
+    }
+    
+}
+
+
+@media all and (max-width: 320px) {     /*   for iphone5 device  */
+    
+    
+}
